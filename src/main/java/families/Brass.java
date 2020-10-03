@@ -6,4 +6,8 @@ public abstract class Brass extends Instrument{
         super(material, colour, buyingPrice, sellingPrice);
         this.hasValves = hasValves;
     }
+
+    public boolean isHasValves() {
+        return hasValves;
+    }
 }
