@@ -1,6 +1,6 @@
 package families;
 
-import behaviours.PercussionMethod;
+import methods.PercussionMethod;
 
 public abstract class Percussion extends Instrument{
 

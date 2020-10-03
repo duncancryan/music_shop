@@ -1,4 +1,4 @@
-package behaviours;
+package methods;
 
 public enum PercussionMethod {
     STRIKE("Strike"),
