@@ -17,5 +17,10 @@ public class DrumsTest {
     public void hasMaterial(){
         assertEquals("Plastic", drums.getMaterial());
     }
+
+    @Test
+    public void hasColour(){
+        assertEquals("Black", drums.getColour());
+    }
 }
 
