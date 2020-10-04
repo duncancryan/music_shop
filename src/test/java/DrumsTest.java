@@ -37,5 +37,10 @@ public class DrumsTest {
     public void hasPercussionMethod(){
         assertEquals("Strike", drums.getMethodString());
     }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Boom Bap!", drums.play());
+    }
 }
 
