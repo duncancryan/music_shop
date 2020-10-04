@@ -28,4 +28,10 @@ public class ShopTest {
     public void stockStartsEmpty(){
         assertEquals(0, shop.getStockCount());
     }
+
+    @Test
+    public void canAddToStock(){
+        shop.addToStock(drumSticks);
+        assertEquals(1, shop.getStockCount());
+    }
 }
