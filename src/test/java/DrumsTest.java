@@ -32,5 +32,10 @@ public class DrumsTest {
     public void hasSellingCost(){
         assertEquals(415.99, drums.getSellingPrice(), 0.01);
     }
+
+    @Test
+    public void hasPercussionMethod(){
+        assertEquals("Strike", drums.getMethodString());
+    }
 }
 
