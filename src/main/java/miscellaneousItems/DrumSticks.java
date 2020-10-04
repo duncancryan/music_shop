@@ -1,4 +1,7 @@
 package miscellaneousItems;
 
-public class DrumSticks {
+public class DrumSticks extends Accessory{
+    public DrumSticks(String description, double buyingPrice, double sellingPrice) {
+        super(description, buyingPrice, sellingPrice);
+    }
 }
