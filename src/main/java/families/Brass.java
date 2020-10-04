@@ -7,7 +7,7 @@ public abstract class Brass extends Instrument{
         this.hasValves = hasValves;
     }
 
-    public boolean isHasValves() {
+    public boolean checkValves() {
         return hasValves;
     }
 }
