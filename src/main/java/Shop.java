@@ -28,4 +28,10 @@ public class Shop {
     public ISell removeFromStock(ISell soldItem){
         return this.stock.remove(this.stock.indexOf(soldItem));
     }
+
+    public double getTotalPotentialProfit() {
+        return this.stock.stream()
+                .map(stockItem -> stockItem.calculateMarkUp())
+                .reduce(0.00, (sum, markUp) -> sum += markUp);
+    }
 }

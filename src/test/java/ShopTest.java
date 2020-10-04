@@ -43,7 +43,11 @@ public class ShopTest {
     }
 
     @Test
-    public void canCalculateTotalProfit(){
-
+    public void canCalculateTotalPotentialProfit(){
+        shop.addToStock(drumSticks);
+        shop.addToStock(flute);
+        shop.addToStock(trumpet);
+        double potentialProfit = shop.getTotalPotentialProfit();
+        assertEquals(208.23, potentialProfit, 0.01);
     }
 }
