@@ -5,13 +5,13 @@ import enums.StringMethod;
 public abstract class Strings extends Instrument{
 
     private int numberOfStrings;
-    private StringMethod method;
+    private StringMethod stringMethod;
     private boolean isElectric;
 
-    public Strings(String material, String colour, double buyingPrice, double sellingPrice, int numberOfStrings, StringMethod method, boolean isElectric) {
+    public Strings(String material, String colour, double buyingPrice, double sellingPrice, int numberOfStrings, StringMethod stringMethod, boolean isElectric) {
         super(material, colour, buyingPrice, sellingPrice);
         this.numberOfStrings = numberOfStrings;
-        this.method = method;
+        this.stringMethod = stringMethod;
         this.isElectric = isElectric;
     }
 
@@ -20,7 +20,11 @@ public abstract class Strings extends Instrument{
     }
 
     public StringMethod getMethod() {
-        return method;
+        return stringMethod;
+    }
+
+    public String getMethodString(){
+        return stringMethod.getMethod();
     }
 
     public boolean isElectric() {
@@ -30,4 +34,5 @@ public abstract class Strings extends Instrument{
     public void setNumberOfStrings(int numberOfStrings) {
         this.numberOfStrings = numberOfStrings;
     }
+
 }

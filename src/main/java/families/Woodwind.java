@@ -10,4 +10,16 @@ public abstract class Woodwind extends Instrument{
         super(material, colour, buyingPrice, sellingPrice);
         this.reedCount = reedCount;
     }
+
+    public ReedCount getReedCount() {
+        return reedCount;
+    }
+
+    public String getReedCountString(){
+        return reedCount.getCountString();
+    }
+
+    public int getReedCountInt(){
+        return reedCount.getCountInt();
+    }
 }
