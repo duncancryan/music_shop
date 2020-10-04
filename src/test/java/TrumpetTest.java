@@ -26,7 +26,7 @@ public class TrumpetTest {
 
     @Test
     public void canCalculateMarkUp(){
-        assertEquals(183, trumpet.calculateMarkUp(), 1);
+        assertEquals(183, trumpet.calculateMarkUp());
     }
 
 }
