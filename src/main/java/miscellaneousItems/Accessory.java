@@ -41,6 +41,6 @@ public abstract class Accessory implements ISell {
     public int calculateMarkUp(){
         double markUp = this.sellingPrice - this.buyingPrice;
         double result = (markUp / this.buyingPrice) * 100;
-        return (int)result;
+        return (int)Math.rint(result);
     }
 }
