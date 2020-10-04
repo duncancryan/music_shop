@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class FluteTest {
 
@@ -17,5 +18,10 @@ public class FluteTest {
     @Test
     public void hasReedCountOfNone(){
         assertEquals(0, flute.getReedCountInt());
+    }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Oooh, oooohhooohh", flute.play());
     }
 }
