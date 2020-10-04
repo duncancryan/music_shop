@@ -22,5 +22,15 @@ public class DrumsTest {
     public void hasColour(){
         assertEquals("Black", drums.getColour());
     }
+
+    @Test
+    public void hasBuyingCost(){
+        assertEquals(235.50, drums.getBuyingPrice(), 0.01);
+    }
+
+    @Test
+    public void hasSellingCost(){
+        assertEquals(415.99, drums.getSellingPrice(), 0.01);
+    }
 }
 
