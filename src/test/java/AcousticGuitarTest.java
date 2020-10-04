@@ -34,4 +34,9 @@ public class AcousticGuitarTest {
     public void canPlay(){
         assertEquals("Struuuuumm, Struum Strum!", acousticGuitar.play());
     }
+
+    @Test
+    public void canCalculateMarkUp(){
+        assertEquals(85.49, acousticGuitar.calculateMarkUp(), 0.01);
+    }
 }

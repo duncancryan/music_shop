@@ -30,6 +30,11 @@ public class DrumSticksTest {
 
     @Test
     public void canCalculateMarkUp(){
-        assertEquals(112, drumSticks.calculateMarkUp());
+        assertEquals(9.49, drumSticks.calculateMarkUp(), 0.01);
+    }
+
+    @Test
+    public void canCalculateMarkUpPercentage(){
+        assertEquals(112, drumSticks.calculateMarkUpPercentage());
     }
 }

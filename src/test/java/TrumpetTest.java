@@ -25,8 +25,8 @@ public class TrumpetTest {
     }
 
     @Test
-    public void canCalculateMarkUp(){
-        assertEquals(183, trumpet.calculateMarkUp());
+    public void canCalculateMarkUpPercentage(){
+        assertEquals(183, trumpet.calculateMarkUpPercentage());
     }
 
 }
