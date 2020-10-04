@@ -41,4 +41,9 @@ public class ShopTest {
         shop.removeFromStock(drumSticks);
         assertEquals(0, shop.getStockCount());
     }
+
+    @Test
+    public void canCalculateTotalProfit(){
+
+    }
 }
