@@ -6,7 +6,7 @@ import families.Strings;
 
 public class Drums extends Percussion {
     public Drums(String material, String colour, double buyingPrice, double sellingPrice, PercussionMethod method) {
-        super(material, colour, buyingPrice, sellingPrice, PercussionMethod.STRIKE);
+        super("Plastic", colour, buyingPrice, sellingPrice, PercussionMethod.STRIKE);
     }
 
     public String play() {

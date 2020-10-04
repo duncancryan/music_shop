@@ -10,6 +10,6 @@ public class Flute extends Woodwind {
     }
 
     public String play() {
-        return null;
+        return "Oooh, oooohhooohh";
     }
 }

@@ -2,6 +2,7 @@ package enums;
 
 public enum StringMethod {
     PLUCK("Pluck"),
+    STRUM("Strum"),
     FIDDLE("Fiddle");
 
     private final String method;
