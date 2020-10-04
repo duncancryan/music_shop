@@ -1,14 +1,14 @@
 package families;
 
-import methods.StringMethod;
+import enums.StringMethod;
 
-public abstract class String extends Instrument{
+public abstract class Strings extends Instrument{
 
     private int numberOfStrings;
     private StringMethod method;
     private boolean isElectric;
 
-    public String(String material, String colour, double buyingPrice, double sellingPrice, int numberOfStrings, StringMethod method, boolean isElectric) {
+    public Strings(String material, String colour, double buyingPrice, double sellingPrice, int numberOfStrings, StringMethod method, boolean isElectric) {
         super(material, colour, buyingPrice, sellingPrice);
         this.numberOfStrings = numberOfStrings;
         this.method = method;

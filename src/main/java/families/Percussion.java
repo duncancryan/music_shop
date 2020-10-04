@@ -1,6 +1,6 @@
 package families;
 
-import methods.PercussionMethod;
+import enums.PercussionMethod;
 
 public abstract class Percussion extends Instrument{
 

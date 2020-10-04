@@ -1,4 +1,4 @@
-package methods;
+package enums;
 
 public enum StringMethod {
     PLUCK("Pluck"),

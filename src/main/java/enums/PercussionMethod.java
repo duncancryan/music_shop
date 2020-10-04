@@ -1,4 +1,4 @@
-package methods;
+package enums;
 
 public enum PercussionMethod {
     STRIKE("Strike"),
